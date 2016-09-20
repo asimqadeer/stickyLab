@@ -1,0 +1,9 @@
+{
+  "port": 8000,
+  "files": ["/app/**/*.{html,htm,css,js}"],
+  "server": { "baseDir": ["./app"],
+              "routes": {
+                  "/node_modules": "node_modules" , "/app": "app", "/app.component": "app","/systemjs.config.js":"systemjs.config.js"
+              }
+    }
+}
