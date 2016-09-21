@@ -6,10 +6,9 @@ import { Component } from '@angular/core';
   //we had used back-tick to  write multiline html in order to avoid string literal errors
   // ngModel used for two way data binding
   	template: `
-	  <div>
-		 <sticker-grid></sticker-grid>
-		</div>
-		`,
+	  <base href="/">
+	  <router-outlet></router-outlet>
+	`,
 		
 })
 export class AppComponent {

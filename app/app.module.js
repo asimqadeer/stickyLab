@@ -12,8 +12,10 @@ var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 //we had import FormsModule in order to play around with input fields and two day data binding
 var forms_1 = require('@angular/forms');
+var app_routing_1 = require('./app.routing');
 var app_component_1 = require('./app.component');
 var stickerGrid_component_1 = require('./components/stickerGrid/stickerGrid.component');
+var stickerDetail_component_1 = require('./components/stickerDetail/stickerDetail.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -21,11 +23,13 @@ var AppModule = (function () {
         core_1.NgModule({
             imports: [
                 platform_browser_1.BrowserModule,
-                forms_1.FormsModule
+                forms_1.FormsModule,
+                app_routing_1.routing
             ],
             declarations: [
                 app_component_1.AppComponent,
-                stickerGrid_component_1.StickerGridComponent
+                stickerGrid_component_1.StickerGridComponent,
+                stickerDetail_component_1.StickerDetailComponent
             ],
             bootstrap: [
                 app_component_1.AppComponent

@@ -17,7 +17,7 @@ var AppComponent = (function () {
             selector: 'my-app',
             //we had used back-tick to  write multiline html in order to avoid string literal errors
             // ngModel used for two way data binding
-            template: "\n\t  <div>\n\t\t <sticker-grid></sticker-grid>\n\t\t</div>\n\t\t",
+            template: "\n\t  <base href=\"/\">\n\t  <router-outlet></router-outlet>\n\t",
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

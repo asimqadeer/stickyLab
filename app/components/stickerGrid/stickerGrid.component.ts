@@ -8,7 +8,7 @@ export class Stickers {
 
 // Sticker list 
 const STICKERS: Stickers[] = [
-  { imgSrc: './images/pic01.jpg', url: 'http://www.google.com' },
+  { imgSrc: './images/pic01.jpg', url: '/stickerDetail/1' },
   { imgSrc: './images/pic02.jpg', url: 'http://www.google.com' },
   { imgSrc: './images/pic03.jpg', url: 'http://www.google.com' },
   { imgSrc: './images/pic04.jpg', url: 'http://www.google.com' },
