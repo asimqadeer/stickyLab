@@ -19,20 +19,20 @@ exports.Stickers = Stickers;
 // Sticker list 
 var STICKERS = [
     { imgSrc: './images/pic01.jpg', url: '/stickerDetail/1' },
-    { imgSrc: './images/pic02.jpg', url: 'http://www.google.com' },
-    { imgSrc: './images/pic03.jpg', url: 'http://www.google.com' },
-    { imgSrc: './images/pic04.jpg', url: 'http://www.google.com' },
-    { imgSrc: './images/pic05.jpg', url: 'http://www.google.com' },
-    { imgSrc: './images/pic06.jpg', url: 'http://www.google.com' },
-    { imgSrc: './images/pic07.jpg', url: 'http://www.google.com' },
-    { imgSrc: './images/pic08.jpg', url: 'http://www.google.com' },
-    { imgSrc: './images/pic09.jpg', url: 'http://www.google.com' },
-    { imgSrc: './images/pic10.jpg', url: 'http://www.google.com' },
-    { imgSrc: './images/pic11.jpg', url: 'http://www.google.com' },
-    { imgSrc: './images/pic12.jpg', url: 'http://www.google.com' },
-    { imgSrc: './images/pic13.jpg', url: 'http://www.google.com' },
-    { imgSrc: './images/pic14.jpg', url: 'http://www.google.com' },
-    { imgSrc: './images/pic15.jpg', url: 'http://www.google.com' }
+    { imgSrc: './images/pic02.jpg', url: '/stickerDetail/2' },
+    { imgSrc: './images/pic03.jpg', url: '/stickerDetail/3' },
+    { imgSrc: './images/pic04.jpg', url: '/stickerDetail/4' },
+    { imgSrc: './images/pic05.jpg', url: '/stickerDetail/5' },
+    { imgSrc: './images/pic06.jpg', url: '/stickerDetail/6' },
+    { imgSrc: './images/pic07.jpg', url: '/stickerDetail/7' },
+    { imgSrc: './images/pic08.jpg', url: '/stickerDetail/8' },
+    { imgSrc: './images/pic09.jpg', url: '/stickerDetail/9' },
+    { imgSrc: './images/pic10.jpg', url: '/stickerDetail/10' },
+    { imgSrc: './images/pic11.jpg', url: '/stickerDetail/11' },
+    { imgSrc: './images/pic12.jpg', url: '/stickerDetail/12' },
+    { imgSrc: './images/pic13.jpg', url: '/stickerDetail/13' },
+    { imgSrc: './images/pic14.jpg', url: '/stickerDetail/14' },
+    { imgSrc: './images/pic15.jpg', url: '/stickerDetail/15' }
 ];
 var StickerGridComponent = (function () {
     function StickerGridComponent() {
