@@ -16,6 +16,13 @@ var app_routing_1 = require('./app.routing');
 var app_component_1 = require('./app.component');
 var stickerGrid_component_1 = require('./components/stickerGrid/stickerGrid.component');
 var stickerDetail_component_1 = require('./components/stickerDetail/stickerDetail.component');
+// Must export the config
+exports.firebaseConfig = {
+    apiKey: "<your-key>",
+    authDomain: "<your-project-authdomain>",
+    databaseURL: "<your-database-URL>",
+    storageBucket: "<your-storage-bucket>"
+};
 var AppModule = (function () {
     function AppModule() {
     }
@@ -24,7 +31,7 @@ var AppModule = (function () {
             imports: [
                 platform_browser_1.BrowserModule,
                 forms_1.FormsModule,
-                app_routing_1.routing
+                app_routing_1.routing,
             ],
             declarations: [
                 app_component_1.AppComponent,
