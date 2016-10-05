@@ -48,6 +48,8 @@
 		-webkit-text-size-adjust: none;
 	}
 
+
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -285,6 +287,21 @@
 		border-bottom-color: rgba(144, 144, 144, 0.25);
 	}
 
+/* Upload Form */ 
+	.form {
+		width:50%;
+		margin: 0px auto;
+	}
+	.form .item {
+		margin-bottom: 15px;
+	}
+	.uploadLink {
+		color: #333;
+		font-size: 20px;
+		text-decoration: none;
+		margin-top: 15px;
+		cursor: pointer;
+	}
 /* Box */
 
 	.box {
@@ -311,7 +328,25 @@
 	}
 
 /* Button */
-
+.buttonUpload {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		background:#df1818;
+		border-radius: 20px;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		color: #fff;
+		font-weight: 300;
+		height: 2.85em;
+		line-height: 2.95em;
+		padding: 0 2.5em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+	}
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],

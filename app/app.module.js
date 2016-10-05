@@ -16,6 +16,7 @@ var app_routing_1 = require('./app.routing');
 var app_component_1 = require('./app.component');
 var stickerGrid_component_1 = require('./components/stickerGrid/stickerGrid.component');
 var stickerDetail_component_1 = require('./components/stickerDetail/stickerDetail.component');
+var stickerUpload_component_1 = require('./components/stickerUpload/stickerUpload.component');
 // Must export the config
 exports.firebaseConfig = {
     apiKey: "<your-key>",
@@ -36,7 +37,8 @@ var AppModule = (function () {
             declarations: [
                 app_component_1.AppComponent,
                 stickerGrid_component_1.StickerGridComponent,
-                stickerDetail_component_1.StickerDetailComponent
+                stickerDetail_component_1.StickerDetailComponent,
+                stickerUpload_component_1.StickerUploadComponent
             ],
             bootstrap: [
                 app_component_1.AppComponent

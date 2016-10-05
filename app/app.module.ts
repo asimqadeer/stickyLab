@@ -10,6 +10,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AppComponent }  from './app.component';
 import {StickerGridComponent} from './components/stickerGrid/stickerGrid.component';
 import {StickerDetailComponent} from './components/stickerDetail/stickerDetail.component';
+import {StickerUploadComponent} from './components/stickerUpload/stickerUpload.component';
 
 // Must export the config
 export const firebaseConfig = {
@@ -30,7 +31,8 @@ export const firebaseConfig = {
   declarations: [ 
     AppComponent,
     StickerGridComponent,
-    StickerDetailComponent
+    StickerDetailComponent,
+    StickerUploadComponent
     ],
   bootstrap:    [ 
     AppComponent
